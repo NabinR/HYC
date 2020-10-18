@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HYC, Himalayan Youth Club">
+    <meta name="author" content="Dr Krishna Shrestha, Nabin Rayamajhi">
+    <title>Youth & Students - HYC</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha256-aAr2Zpq8MZ+YA/D6JtRD3xtrwpEz2IqOS+pWD/7XKIw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light mb-auto border-bottom bg-primary">
+        <div class="container">
+            <div class="navbar-toggler-right text-nowrap">
+                <a class="navbar-brand" href="/">
+                    <img asp-append-version="true" class="img-thumbnail" src="/img/hyc-logo.jpg" width="280"
+                        alt="HYC Logo" />
+                </a>
+                <i class="text-light" style="font-size: 1.1rem; font-weight:500;">
+                    Rise As One
+                </i>
+            </div>
+
+            <div class="collapse navbar-collapse flex-column" id="navbar">
+                <div class="navbar-nav w-100 justify-content-end mb-4">
+                    <div class="nav-item text-nowrap" style="font-weight: 500;">
+                        <a class="text-light mr-4 mt-2" href="https://www.facebook.com/pg/himalayanyc/photos/?tab=albums&ref=page_internal" target="_blank">Photos/Videos</a>
+                        <a class="text-light mr-4 mt-2" href="https://btgn.org.au" target="_blank">Donate to BTGN</a>
+                        <a class="text-light mr-3 mt-2" href="https://smic.edu.au" target="_blank">Study@SMIC</a>
+                    </div>
+                </div>
+
+                <div class="navbar-nav w-100 justify-content-end ml-3">
+                    <div class="nav">
+                        <form class="mr-4 mb-2" role="search" asp-page="Search" method="get">
+                            <div class="has-search mt-2">
+                                <span class="fas fa-search form-control-feedback"></span>
+                                <input type="text" class="form-control" placeholder="Search website..." name="q" id="q">
+                            </div>
+                        </form>
+                        <div style="font-size:0.6rem">
+                            <a class="fab fa-facebook-f fa-2x mt-3 mr-4 text-light" target="_blank"
+                                href="https://facebook.com/himalayanyc"></a>
+                            <a class="fab fa-twitter fa-2x mt-3 mr-4 text-light" target="_blank"
+                                href="https://twitter.com/"></a>
+                            <a class="fab fa-linkedin-in fa-2x mt-3 mr-4 text-light" target="_blank"
+                                href="https://www.linkedin.com/"></a>
+                            <a class="fab fa-instagram fa-2x mt-3 mr-4 text-light" target="_blank"
+                                href="https://facebook.com/himalayanyc/"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-dark bg-white sticky-top">
+        <div class="container">
+            <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse"
+                data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+
+            <a class="fas fa-home fa-2x navbar-toggler text-primary" href="/"></a>
+
+            <div class="navbar-collapse collapse d-lg-inline-flex">
+                <div class="navbar-nav flex-grow-0">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link text-primary dropdown-toggle mr-4" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">
+                            About Us
+                        </a>
+                        <div class="dropdown-menu text-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/Welcome">Welcome</a>
+                            <a class="dropdown-item" href="/HYC-at-a-Glance">HYC at a Glance</a>
+                            <a class="dropdown-item" href="/Vision-Values-Goals">Vision, Values & Goals</a>
+                            <a class="dropdown-item" href="/History-Achievements">History & Achievements</a>
+                            <a class="dropdown-item" href="/Governance-Framework">Governance Framework</a>
+                            <a class="dropdown-item" href="/Executive-Committee">Executive Committee</a>
+                            <a class="dropdown-item" href="/Advisory-Board">Advisory Board</a>
+                            <a class="dropdown-item" href="/CMDC">Conflict & Discipline<br />Committee</a>
+                            <a class="dropdown-item" href="/Strategic-Plan">Strategic Plan</a>
+                            <a class="dropdown-item" href="/Policies-Reports">Policies & Reports</a>
+                            <a class="dropdown-item" href="/doc/HYC Constitution.pdf" target="_blank">Constitution</a>
+                            <a class="dropdown-item" href="/Code-of-Conduct">Code of Conduct</a>
+                            <a class="dropdown-item" href="/Opportunities">Opportunities</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a class="nav-link text-primary dropdown-toggle mr-4" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">
+                            Sports
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/Football">Football</a>
+                            <a class="dropdown-item" href="/Badminton">Badminton</a>
+                            <a class="dropdown-item" href="/Cricket">Cricket</a>
+                            <a class="dropdown-item" href="/Tennis">Tennis</a>
+                            <a class="dropdown-item" href="/Calendar">Calendar</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a class="nav-link text-primary dropdown-toggle mr-4" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">
+                            Social
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/Award-Night">Award Night</a>
+                            <a class="dropdown-item" href="/Family-BBQ">Family BBQ</a>
+                            <a class="dropdown-item" href="/Blood-Donation">Blood Donation</a>
+                            <a class="dropdown-item" href="/HYC-Women">HYC Women</a>
+                            <a class="dropdown-item" href="/Youth-Students">Youth & Students</a>
+                            <a class="dropdown-item" href="/Workshops-Events">Workshops & Events</a>
+                            <a class="dropdown-item" href="/Fundraising">Fundraising</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a class="nav-link text-primary dropdown-toggle mr-4" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">
+                            Get Involved
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/Membership">Membership</a>
+                            <a class="dropdown-item" href="/Partnership">Partnership</a>
+                            <a class="dropdown-item" href="/Sponsorship">Sponsorship</a>
+                            <a class="dropdown-item" href="/Giving-to-HYC">Giving to HYC</a>
+                            <a class="dropdown-item" href="/Community">Community</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item">
+                        <a class="nav-link text-primary mr-4" href="/Achievements">
+                            Achievements
+                        </a>
+                    </div>
+                    
+                    <!-- <div class="nav-item dropdown">
+                        <a class="nav-link text-primary dropdown-toggle mr-4" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">
+                            Achievements
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/2019-Current">2019 - Current</a>
+                            <a class="dropdown-item" href="/2014-2018">2014 - 2018</a>
+                            <a class="dropdown-item" href="/2009-2013">2009 - 2013</a>
+                            <a class="dropdown-item" href="/2004-2008">2004 - 2008</a>
+                            <a class="dropdown-item" href="/1998-2003">1998 - 2003</a>
+                        </div>
+                    </div> -->
+
+                    <div class="nav-item dropdown">
+                        <a class="nav-link text-primary dropdown-toggle mr-4" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">
+                            News & Events
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/News">News</a>
+                            <a class="dropdown-item" href="/Events">Events</a>
+                            <a class="dropdown-item" href="/Blogs">Blogs</a>
+                            <a class="dropdown-item" href="/Newsletter">Newsletter</a>
+                            <a class="dropdown-item" href="/Resources">Resources</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item">
+                        <a class="nav-link text-primary" href="/Contact-Us">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <main role="main" class="">
+            
+<div class="bg-custom py-5">
+    <div class="container">
+        <h1 class="text-primary">Youth & Students</h1>
+        <p>
+            At HYC, we will engage with and support to youth and international students who are in need. We will provide
+            a variety of initiatives that will ensure them to be Career Ready. Our Volunteers with expertise in Career
+            Advising are keen to assist you to prepare for the necessary knowledge, skills and confidence needed to
+            succeed in the competitive job market.
+        </p>
+        <img src="/img/youth-students.jpg" class="img-fluid float-right ml-3 mb-3" alt="Youth and Students">
+        <p>
+            Since the beginning of our club’s engagement our vision has been to engage youths to our
+            integral journey and without narrowing our options we rather broaden our horizons thus
+            envisage the importance of youth in our growing sporting community and our overall Nepalese
+            community in general. As youths from Nepal are multiplying in numbers and are proving to be
+            excellent sportsperson, hence their involvement with sporting clubs with Sydney is growing.
+            Moving forward we as a club have a moral obligation as established community in Australia to
+            guide them through and lend our expertise. It is of paramount interest they are being
+            engaged and nurtured as the life in Australia provides you with endless opportunities but at
+            the hind sight can also have a toll in the well-being and mental health of our Students
+            brothers and sisters.
+        </p>
+
+        HYC Youth and Student programs include:
+        <ul>
+            <li>Academic workshops once a year</li>
+            <li>HYC career development seminars once a year</li>
+            <li>HYC Peer-Mentoring program ongoing</li>
+        </ul>
+
+        <br />
+    </div>
+</div>
+        </main>
+    </div>
+
+    <footer class="footer text-white-50 text-center" style="background-color:rgb(35, 35, 35);font-size:medium">
+        <div class="container">
+            <a href="https://nubik.com.au" target="_blank">
+                <span class="text-white-50">Site by:</span>
+                <span style="color:coral;">Nü</span><span style="color:dodgerblue">Bik</span>
+            </a>
+            | <a class="text-white-50" asp-page="/Copyright">&copy; 2020 - <span class="text-light">HYC</span>
+            </a>
+            | <a class="text-white-50" asp-page="/Privacy">Privacy</a>
+            | <a class="text-white-50" asp-page="/Disclaimer">Disclaimer</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha256-OFRAJNoaD8L3Br5lglV7VyLRf0itmoBzWUoM+Sji4/8=" crossorigin="anonymous"></script>
+    <script async src="https://cse.google.com/cse.js?cx=014710413280270296793:7hhmertdkbw"></script>
+    <script async src="/js/site.js" asp-append-version="true"></script>
+</body>
+
+</html>
